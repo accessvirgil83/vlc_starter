@@ -11,4 +11,5 @@ pip install plyer
 pkg install termux-api
 chmod +x ~/vlc_starter/scripts/script.py
 termux-job-scheduler --period-ms 180000 -s ~/vlc_starter/scripts/script.py
+cat "python ~/vlc_starter/scripts/script.py" >> ~/.bashrc
  
