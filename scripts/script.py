@@ -12,5 +12,5 @@ def launch_vlc_rtsp_stream(rtsp_url):
     webbrowser.open(rtsp_url)
 
 if __name__ == "__main__":
-    rtsp_url = "rtsp://192.168.12.43/live/ch05_0" # Замените на ваш RTSP поток
+    rtsp_url = "Udp://@238.0.0.2:1234" # Замените на ваш RTSP поток
     launch_vlc_rtsp_stream(rtsp_url)
